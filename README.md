@@ -126,6 +126,9 @@ Manajemen produk, tambah, edit, update dan delete setelah user login
 ![image](https://github.com/user-attachments/assets/8e03f703-1470-4991-8a42-ed9cecbedaeb)
 Register untuk menambahkan user
 ![image](https://github.com/user-attachments/assets/37b21beb-ce9b-4e3c-97c6-2b43b5bfedc4)
+Ketersediaan Layanan Offline web
+![image](https://github.com/user-attachments/assets/775c0402-3dd0-48cf-88fc-52a9a2f9776a)
+![image](https://github.com/user-attachments/assets/2c79214a-9c85-4db1-8530-c7d44bc33a6d)
 
 
 
