@@ -1,0 +1,15 @@
+<svg width="150" height="150" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="12" cy="12" r="10" fill="#3498db" />
+
+    <!-- Shopping Cart Icon -->
+    <path d="M8 6h11a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm0 2v9h10V8H8z" fill="#ffffff"/>
+
+    <!-- Arrow to represent "Online" -->
+    <path d="M10.5 13h3l-1.5 1.5L10.5 13zM12 8v6" stroke="#ffffff" stroke-width="0.8"/>
+
+    <!-- Brand Text Below -->
+    <text x="12" y="22" font-size="4" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif">
+        Toko Online
+    </text>
+</svg>
