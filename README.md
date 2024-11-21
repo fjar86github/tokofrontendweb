@@ -10,7 +10,28 @@ Ini adalah proyek toko online dengan tampilan depan (front-end) yang modern dan 
 - **Keranjang Belanja**: Pengguna dapat menambahkan produk ke keranjang belanja dan melihat barang-barang yang ada di keranjang sebelum melanjutkan ke proses checkout.
 - **Manajemen Pesanan**: Pengguna dapat melakukan pemesanan dan melihat riwayat pesanan dengan informasi detail.
 - **Dukungan Offline**: Dengan bantuan service worker, toko tetap dapat berfungsi meskipun pengguna sedang offline, memastikan pengalaman berbelanja yang mulus kapan saja.
+## Prasyarat
 
+- PHP 5.3 atau lebih tinggi
+- MySQL/MariaDB 5.1 atau lebih tinggi
+- Apache Server dengan mod_rewrite
+
+## Instalasi
+
+1. **Clone atau Unduh Proyek**:
+   Anda dapat meng-clone atau mengunduh repositori ini ke dalam direktori server Anda.
+
+2. **Pengaturan Database**:
+   - Buat database di MySQL: `online_store_db`.
+   - Jalankan skrip SQL untuk membuat tabel yang diperlukan: `users`, `products`, `orders`.
+
+3. **Konfigurasi File**:
+   - Edit file `config.php` untuk mengatur koneksi database dan pengaturan lainnya.
+
+4. **Install Dependensi (Opsional)**:
+   Jika Anda menggunakan Composer, jalankan perintah berikut untuk menginstal dependensi yang diperlukan:
+   ```bash
+   composer install
 ## Struktur Proyek
 
 ### `C:`
@@ -85,3 +106,29 @@ Proyek ini bersifat open-source dan tersedia di bawah Lisensi MIT.
 
 
 ---
+###Screenshoot Front End Web
+Halaman index.php yang dimuat sebelum login (Tersedia tambah keranjang, checkout setelah anda login dan paging, pencarian berbasis ajax DOM)
+![image](https://github.com/user-attachments/assets/e6fa4d6d-695f-449f-8f22-d04901f84bc6)
+Halaman Login
+![image](https://github.com/user-attachments/assets/99cc3851-9c7a-4594-9e76-8ac7455889e1)
+Tambah Keranjang setelah login berhasil
+![image](https://github.com/user-attachments/assets/4727487b-d4e7-44e4-acf7-e6b9d11418ba)
+proses checkout
+![image](https://github.com/user-attachments/assets/f589765c-8396-4682-a98a-1d5fed4d0fbb)
+riwayat pesanan setelah user login
+![image](https://github.com/user-attachments/assets/5787217c-c2c1-45f7-addf-1ef397286b7b)
+detail pesanan setelah user login
+![image](https://github.com/user-attachments/assets/aaed818f-349e-4585-964d-a2032da89660)
+pemeriksaan keranjang, jika user sudah login
+![image](https://github.com/user-attachments/assets/fb02550b-0c3c-485e-9ae9-7679748a2a73)
+Manajemen produk, tambah, edit, update dan delete setelah user login
+![image](https://github.com/user-attachments/assets/224c1326-ff88-404e-915c-cf66709103dc)
+![image](https://github.com/user-attachments/assets/8e03f703-1470-4991-8a42-ed9cecbedaeb)
+Register untuk menambahkan user
+![image](https://github.com/user-attachments/assets/37b21beb-ce9b-4e3c-97c6-2b43b5bfedc4)
+
+
+
+
+
+
